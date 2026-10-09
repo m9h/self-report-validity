@@ -1,5 +1,31 @@
 # Self-report validity: chain-of-thought is a verbal protocol
 
+> **Status, 8 Oct 2026.** Designed 4 Aug for the Digital Minds Research Sprint (14–16 Aug 2026,
+> Apart × CIMC); **that sprint was missed.** Nothing has been run. The design below stands, and
+> since August the case for it has strengthened from three directions, all of which are cited
+> rather than inferred:
+>
+> 1. **The swapped-trace result is now peer-reviewed twice.** Valmeekam et al., *Beyond
+>    Semantics* (TMLR 2026): A\* traces permuted *between problems* give 0% trace validity and equal
+>    or better accuracy, with better OOD transfer. Bhambri, Biswas & Kambhampati, *Interpretable
+>    Traces, Unexpected Outcomes* ([ACL 2026 long](https://aclanthology.org/2026.acl-long.1686/))
+>    replicate on QA with pretrained Llama/Qwen. The decoupling hypothesis — **the tokens supply
+>    computation, not a report of it** — is what E1–E3 below test from the protocol-analysis side.
+> 2. **Ericsson & Simon are now cited into the interpretability record.** Dehaene & Naccache's
+>    commentary on Anthropic's global-workspace paper
+>    ([arXiv 2607.15495](https://arxiv.org/abs/2607.15495)) invokes protocol analysis directly.
+>    The framing in this README is no longer an import from outside the field.
+> 3. **The admissibility conditions have interpretability-side analogues with published fixes**:
+>    perfect aliasing in truth probes ([2609.10739](https://arxiv.org/abs/2609.10739)),
+>    self-judgement confounding in correctness probes ([2607.16799](https://arxiv.org/abs/2607.16799)).
+>    A self-report and a probe fail the same way — the label you fitted is not the concept you named.
+>
+> **Next target:** no sprint. Run E1 (concurrent vs retrospective, with the two-concurrent floor)
+> on one open model as a standalone preregistered result; E3 (Turpin) as the instrument check
+> first. Preregistration skeleton in [`PREREGISTRATION.md`](PREREGISTRATION.md).
+
+**Original target: [Digital Minds Research Sprint](https://apartresearch.com/sprints/digital-minds-research-sprint-2026-08-14-to-2026-08-16), 14–16 Aug 2026 (Apart Research × CIMC). Track: introspection reliability.** *(missed — see above)*
+
 **Target: [Digital Minds Research Sprint](https://apartresearch.com/sprints/digital-minds-research-sprint-2026-08-14-to-2026-08-16), 14–16 Aug 2026 (Apart Research × CIMC). Track: introspection reliability.**
 
 ## The claim
